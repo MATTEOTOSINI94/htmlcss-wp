@@ -36,7 +36,7 @@ nav ul li a{
     text-decoration: none;
     line-height: 60px;
     padding: 0px 12px;
-    color: rgba(192, 192, 192, 0.856);
+    color: rgb(85, 85, 85);
     margin-left: -12px;
     font-family: sans-serif;
 }
@@ -44,8 +44,9 @@ nav ul li a{
 nav ul li a:hover{
     color: rgb(109, 109, 109);
 }
-.img{
+section{
     position: relative;
+    margin-bottom: 30px;
     
 }
 .banner{
@@ -54,15 +55,35 @@ nav ul li a:hover{
     background-image: url(img/banner.jpg);
     background-size:cover;
     background-position: center center;
-    border-radius: 5px;
+    border-radius: 10px;
+    
+   
 }
 
 .paragrafo{
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    bottom: 35px;
+    left: 40px;
     width: 50%;
+    color: rgba(255, 255, 255, 0.911) ;
+    z-index: 1;
 }
 
-#style{ font-family: 'Montserrat', sans-serif;
-font-size: 30px;}
+strong{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+section .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(143, 141, 138, 0.493);
+    border-radius: 10px;
+}
+
+.titlemain p{
+    color: rgba(168, 161, 161, 0.692);
+}
+
+
