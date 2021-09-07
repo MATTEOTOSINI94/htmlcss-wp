@@ -42,7 +42,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: rgb(109, 109, 109);
+    color: rgba(247, 18, 18, 0.925);
 }
 section{
     position: relative;
@@ -84,8 +84,9 @@ strong{
 .titlemain{
     margin-bottom: 20px;
 }
-.titlemain p{
-    color: rgba(168, 161, 161, 0.692);
+.stylep{
+    color: rgba(170, 170, 170, 0.849);
+    margin-top: 5px;
 }
 
 
@@ -120,6 +121,7 @@ strong{
 
 .conteinpic{
     position: relative;
+    margin-bottom: 20px;
 }
 
 .overlay{
@@ -130,5 +132,9 @@ strong{
     top:0;
     left:0;
     border-radius: 10px;
-  
+}
+
+footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
